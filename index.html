@@ -3,22 +3,180 @@
   <head>
      <title>Our first webpage</title>
      <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+     <link rel="stylesheet" type="text/css" href="style.css">
+     
   </head>
 
   <body>
-
-     <div class="container">
+         <!-- Logo -->
+      <div class="container col-md-1 title">
+          <img src="src/logo.jpeg" alt="Logo e Prishtines" id="logo">
+      </div>
+         <!-- End Logo -->
+         
+         <div class="container" id="body">
+         
+         <!-- Title -->
         <div class="row">
-           <div class="col-md-2 offset-md-2 column">
-              <p>First Column Content</p>
+            <div class="col-md-2"></div>
+           <div class="col-md-8">
+               <h1 class="blue" id="title">Shto Kontraten e re</h1>
            </div>
-           <div class="col-md-2 offset-md-2 column">
-              <p>Second Column Content</p>
-           </div>
-           <div class="col-md-4 column">
-              <p>Third Column Content</p>
-           </div>
+            <div class="col-md-2"></div>
         </div>
+          <!-- End Title --> 
+          
+          <!-- Prokurimi -->
+         <div class="row">
+            <div class="col-md-2"></div>
+           <div class="col-md-8">
+               <h2 class="title">Prokurimi:</h2>
+           </div>
+            <div class="col-md-2"></div>
+            
+            <div class="col-md-2"></div>
+           <div class="col-md-4">
+               <h6>Nr. rendor i prokurimi</h6>
+           </div>
+            <div class="col-md-4">
+               <h6>Lloji i prokurimi</h6>
+           </div>
+            <div class="col-md-2"></div>
+           <div class="col-md-2"></div>
+           <div class="col-md-4">
+               <input type="number" class="form-control" name="Nr. rendor i prokurimi"  placeholder="Nr. rendor i prokurimi">
+           </div>
+            <div class="col-md-4">
+               <input type="number" class="form-control" name="Lloji i prokurimi" placeholder="Lloji i prokurimi">
+           </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-12 newln"></div>
+            <div class="col-md-2"></div>
+           <div class="col-md-8">
+               <h6>Aktiviteti i prokururimit</h6>
+           </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-2"></div>
+           <div class="col-md-8">
+               <input type="number" class="form-control" name="Aktiviteti i prokururimit" placeholder="Aktiviteti i prokururimit">
+           </div>
+            <div class="col-md-2"></div>
+        </div>
+          <!-- End Prokurimi -->
+          
+          <div class="col-md-12 title"></div>
+          <div class="col-md-12 title"></div>
+          
+          <!-- Datat -->
+          <div class="row">
+            <div class="col-md-2"></div>
+           <div class="col-md-8">
+               <h2 class="title">Datat:</h2>
+           </div>
+            <div class="col-md-2"></div>
+            
+            <div class="col-md-2"></div>
+           <div class="col-md-4">
+               <h6>Data e inicimit te aktivitetit te prokurimit</h6>
+           </div>
+            <div class="col-md-4">
+               <h6>Data e publikimit të shalljes</h6>
+           </div>
+            <div class="col-md-2"></div>
+           <div class="col-md-2"></div>
+           <div class="col-md-4">
+               <input type="date" class="form-control" name="Data e inicimit te aktivitetit te prokurimit" >
+           </div>
+            <div class="col-md-4">
+                <input type="date" class="form-control" name="Data e publikimit të shalljes" >
+           </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-12 newln"></div>
+            <div class="col-md-2"></div>
+           <div class="col-md-8">
+               <h6>Data e nenshrimit te shpalljes</h6>
+           </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-2"></div>
+           <div class="col-md-8">
+               <input type="date" class="form-control" name="Data e nenshrimit te shpalljes" >
+           </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-12 newln"></div>
+            <div class="col-md-2"></div>
+           <div class="col-md-8">
+               <h6>Afatet per implementimin e kontrates</h6>
+           </div>
+            <div class="col-md-2"></div>
+           <div class="col-md-2"></div>
+           <div class="col-md-4">
+               <input type="date" class="form-control" name="Afatet per implementimin e kontrates startues" >
+           </div>
+            <div class="col-md-4">
+                <input type="date" class="form-control" name="Afatet per implementimin e kontrates perfundues" >
+           </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-12 newln"></div>
+            <div class="col-md-2"></div>
+           <div class="col-md-8">
+               <h6>Data e permbylljes se kontrates (data e pranimit te perkohshem/preliminar)</h6>
+           </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-2"></div>
+           <div class="col-md-8">
+               <input type="date" class="form-control" name="Data e permbylljes se kontrates" >
+           </div>
+            <div class="col-md-2"></div>
+        </div>
+          <!-- End Datat -->
+          
+          <div class="col-md-12 title"></div>
+          <div class="col-md-12 title"></div>
+          
+          <!-- Çmimi -->
+          <div class="row">
+            <div class="col-md-2"></div>
+           <div class="col-md-8">
+               <h2 class="title">Çmimi dhe te dhenat tjera:</h2>
+           </div>
+            <div class="col-md-2"></div>
+            
+            <div class="col-md-2"></div>
+           <div class="col-md-4">
+               <h6>Çmimi i kontrates(duke perfshire te gjita taksat)</h6>
+           </div>
+            <div class="col-md-4">
+               <h6>Çmimi total i paguar per kontraten</h6>
+           </div>
+            <div class="col-md-2"></div>
+           <div class="col-md-2"></div>
+           <div class="col-md-4">
+               <input type="number" class="form-control" name="Çmimi i kontrates" placeholder="Çmimi i kontrates">
+           </div>
+            <div class="col-md-4">
+                <input type="number" class="form-control" name="Çmimi total i paguar per kontraten" placeholder="Çmimi total">
+           </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-12 newln"></div>
+            <div class="col-md-2"></div>
+           <div class="col-md-8">
+               <h6>Emri i te cilit eshte dhene kontrata</h6>
+           </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-2"></div>
+           <div class="col-md-8">
+               <input type="date" class="form-control" name="Emri i te cilit eshte dhene kontrata" placeholder="Emri dhe Mbiemri" >
+           </div>
+            <div class="col-md-2"></div>
+        </div>
+          <!-- End Çmimi -->
+          
+          <div class="col-md-12 title"></div>
+          <div class="col-md-12 title"></div>
+          
+          <button type="submit" class="btn btn-primary btn-lg btn-block">DERGO</button>
+          <button type="reset" class="btn btn-default btn-lg btn-block">FSHIJ</button>
+          
      </div>
 
   </body>
